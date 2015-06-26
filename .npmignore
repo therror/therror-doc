@@ -1,0 +1,12 @@
+node_modules/
+.idea/
+coverage/
+test/
+examples/
+
+npm-debug.log
+.eslintrc
+.istanbul.yml
+.jscsrc
+.travis.yml
+CONTRIBUTING.md

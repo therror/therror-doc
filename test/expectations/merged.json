@@ -1,0 +1,130 @@
+[
+  {
+    "namespace": "NS",
+    "errors": [
+      {
+        "type": "ERR",
+        "fields": [
+          {
+            "key": "key1",
+            "value": "value1",
+            "doc": {
+              "description": "The field documentation",
+              "tags": [
+                {
+                  "title": "flag",
+                  "description": null
+                },
+                {
+                  "title": "field",
+                  "description": "Documentation"
+                }
+              ]
+            }
+          },
+          {
+            "key": "key2",
+            "value": "value2",
+            "doc": null
+          }
+        ],
+        "doc": {
+          "description": "ERR description",
+          "tags": [
+            {
+              "title": "flag",
+              "description": null
+            },
+            {
+              "title": "field",
+              "description": "Documentation"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ERR2",
+        "fields": [
+          {
+            "key": "key2",
+            "value": "value2",
+            "doc": null
+          }
+        ],
+        "doc": null
+      },
+      {
+        "type": "ERR",
+        "fields": [
+          {
+            "key": "key1",
+            "value": "value1",
+            "doc": {
+              "description": "The field documentation",
+              "tags": [
+                {
+                  "title": "flag",
+                  "description": null
+                },
+                {
+                  "title": "field",
+                  "description": "Documentation"
+                }
+              ]
+            }
+          },
+          {
+            "key": "key2",
+            "value": "value2",
+            "doc": null
+          }
+        ],
+        "doc": {
+          "description": "ERR description",
+          "tags": [
+            {
+              "title": "flag",
+              "description": null
+            },
+            {
+              "title": "field",
+              "description": "Documentation"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ERR3",
+        "fields": [
+          {
+            "key": "key3",
+            "value": "value3",
+            "doc": null
+          }
+        ],
+        "doc": null
+      }
+    ],
+    "doc": {
+      "tags": [
+        {
+          "title": "flag",
+          "description": null
+        },
+        {
+          "title": "field",
+          "description": "Documentation"
+        },
+        {
+          "title": "flag2",
+          "description": null
+        },
+        {
+          "title": "field",
+          "description": "Documentation2"
+        }
+      ],
+      "description": "NS documentation NS documentation2"
+    }
+  }
+]

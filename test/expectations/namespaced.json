@@ -1,0 +1,71 @@
+[
+  {
+    "errors": [
+      {
+        "type": "ERR",
+        "fields": [
+          {
+            "key": "key1",
+            "value": "value1",
+            "doc": {
+              "description": "The field documentation",
+              "tags": [
+                {
+                  "title": "flag",
+                  "description": null
+                },
+                {
+                  "title": "field",
+                  "description": "Documentation"
+                }
+              ]
+            }
+          },
+          {
+            "key": "key2",
+            "value": "value2",
+            "doc": null
+          }
+        ],
+        "doc": {
+          "description": "ERR description",
+          "tags": [
+            {
+              "title": "flag",
+              "description": null
+            },
+            {
+              "title": "field",
+              "description": "Documentation"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ERR2",
+        "fields": [
+          {
+            "key": "key2",
+            "value": "value2",
+            "doc": null
+          }
+        ],
+        "doc": null
+      }
+    ],
+    "namespace": "NS",
+    "doc": {
+      "description": "NS documentation",
+      "tags": [
+        {
+          "title": "flag",
+          "description": null
+        },
+        {
+          "title": "field",
+          "description": "Documentation"
+        }
+      ]
+    }
+  }
+]

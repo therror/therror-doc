@@ -1,0 +1,53 @@
+{
+  "name": "therror-doc",
+  "description": "Documentation parser for therror",
+  "version": "0.2.0-rc.0",
+  "homepage": "https://therror.github.io/therror-doc",
+  "author": {
+    "name": "Javier Mendiara Cañardo",
+    "email": "javier.mendiaracanardo@telefonica.com"
+  },
+  "bin": {
+    "therror-doc": "./bin/therror-doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/therror/therror-doc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/therror/therror-doc/issues"
+  },
+  "main": "lib/therror-doc",
+  "engines": {
+    "node": ">=0.10.8"
+  },
+  "scripts": {
+    "travis": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec test/environment.js test/*.spec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R dot test/environment.js test/*.spec.js",
+    "lint": "jscs lib && eslint lib",
+    "test": "mocha -R spec test/environment.js test/*.spec.js",
+    "prepublish": "npm run test && npm run lint"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coveralls": "^2.11.2",
+    "eslint": "^0.23.0",
+    "istanbul": "^0.3.15",
+    "jscs": "^1.13.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.0",
+    "sinon-chai": "^2.8.0",
+    "therror": "^0.2.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^1.2.1",
+    "commander": "^2.8.1",
+    "doctrine": "^0.6.4",
+    "escodegen": "^1.6.1",
+    "esprima": "^2.3.0",
+    "estraverse": "^4.1.0",
+    "therror": "^0.2.0",
+    "underscore": "^1.8.3"
+  }
+}
